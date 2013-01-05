@@ -1,6 +1,6 @@
 //
 //  YSViewController.h
-//  Talking Memos
+//  AmzonProductAdvertisingAPISample
 //
 //  Created by Shingai Yoshimi on 12/28/12.
 //  Copyright (c) 2012 Shingai Yoshimi. All rights reserved.

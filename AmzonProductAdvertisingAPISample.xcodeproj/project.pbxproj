@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8836FBBA168D90CF00CF2E0C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8836FBAA168D90CF00CF2E0C /* Default-568h@2x.png */; };
+		8836FBBB168D90CF00CF2E0C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8836FBAB168D90CF00CF2E0C /* Default.png */; };
+		8836FBBC168D90CF00CF2E0C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8836FBAC168D90CF00CF2E0C /* Default@2x.png */; };
+		8836FBBD168D90CF00CF2E0C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8836FBAD168D90CF00CF2E0C /* InfoPlist.strings */; };
+		8836FBBE168D90CF00CF2E0C /* YSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8836FBAF168D90CF00CF2E0C /* YSViewController.xib */; };
+		8836FBBF168D90CF00CF2E0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8836FBB1168D90CF00CF2E0C /* main.m */; };
+		8836FBC1168D90CF00CF2E0C /* YSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8836FBB5168D90CF00CF2E0C /* YSAppDelegate.m */; };
+		8836FBC2168D90CF00CF2E0C /* YSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8836FBB9168D90CF00CF2E0C /* YSViewController.m */; };
+		88A39850168D8EA300C8AF93 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A3984F168D8EA300C8AF93 /* UIKit.framework */; };
+		88A39852168D8EA300C8AF93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A39851168D8EA300C8AF93 /* Foundation.framework */; };
+		88A39854168D8EA300C8AF93 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A39853168D8EA300C8AF93 /* CoreGraphics.framework */; };
+		88A46C5F169899EA003F9E39 /* NSString+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A46C5E169899EA003F9E39 /* NSString+URLEncode.m */; };
+		88E9BA6D16985D0D0007D727 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E9BA6C16985D0D0007D727 /* NSData+Base64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		88E9BA79169868BA0007D727 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E9BA78169868BA0007D727 /* XMLReader.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		88E9BA841698712F0007D727 /* YSSignedRequestsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E9BA831698712F0007D727 /* YSSignedRequestsManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8836FBAA168D90CF00CF2E0C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8836FBAB168D90CF00CF2E0C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8836FBAC168D90CF00CF2E0C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8836FBAE168D90CF00CF2E0C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8836FBB0168D90CF00CF2E0C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/YSViewController.xib; sourceTree = "<group>"; };
+		8836FBB1168D90CF00CF2E0C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8836FBB2168D90CF00CF2E0C /* AmzonProductAdvertisingAPISample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AmzonProductAdvertisingAPISample-Info.plist"; sourceTree = "<group>"; };
+		8836FBB3168D90CF00CF2E0C /* AmzonProductAdvertisingAPISample-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AmzonProductAdvertisingAPISample-Prefix.pch"; sourceTree = "<group>"; };
+		8836FBB4168D90CF00CF2E0C /* YSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSAppDelegate.h; sourceTree = "<group>"; };
+		8836FBB5168D90CF00CF2E0C /* YSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSAppDelegate.m; sourceTree = "<group>"; };
+		8836FBB8168D90CF00CF2E0C /* YSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSViewController.h; sourceTree = "<group>"; };
+		8836FBB9168D90CF00CF2E0C /* YSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSViewController.m; sourceTree = "<group>"; };
+		88A3984B168D8EA300C8AF93 /* AmzonProductAdvertisingAPISample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmzonProductAdvertisingAPISample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88A3984F168D8EA300C8AF93 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		88A39851168D8EA300C8AF93 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		88A39853168D8EA300C8AF93 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		88A46C5D169899EA003F9E39 /* NSString+URLEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncode.h"; sourceTree = "<group>"; };
+		88A46C5E169899EA003F9E39 /* NSString+URLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncode.m"; sourceTree = "<group>"; };
+		88E9BA6B16985D0D0007D727 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		88E9BA6C16985D0D0007D727 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		88E9BA77169868BA0007D727 /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		88E9BA78169868BA0007D727 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
+		88E9BA821698712F0007D727 /* YSSignedRequestsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSSignedRequestsManager.h; sourceTree = "<group>"; };
+		88E9BA831698712F0007D727 /* YSSignedRequestsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSSignedRequestsManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88A39848168D8EA300C8AF93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88A39850168D8EA300C8AF93 /* UIKit.framework in Frameworks */,
+				88A39852168D8EA300C8AF93 /* Foundation.framework in Frameworks */,
+				88A39854168D8EA300C8AF93 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8836FBA1168D90CF00CF2E0C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				88E9BA76169868BA0007D727 /* XMLReader */,
+				88E9BA821698712F0007D727 /* YSSignedRequestsManager.h */,
+				88E9BA831698712F0007D727 /* YSSignedRequestsManager.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8836FBA9168D90CF00CF2E0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8836FBAA168D90CF00CF2E0C /* Default-568h@2x.png */,
+				8836FBAB168D90CF00CF2E0C /* Default.png */,
+				8836FBAC168D90CF00CF2E0C /* Default@2x.png */,
+				8836FBAD168D90CF00CF2E0C /* InfoPlist.strings */,
+				8836FBAF168D90CF00CF2E0C /* YSViewController.xib */,
+				8836FBB1168D90CF00CF2E0C /* main.m */,
+				8836FBB2168D90CF00CF2E0C /* AmzonProductAdvertisingAPISample-Info.plist */,
+				8836FBB3168D90CF00CF2E0C /* AmzonProductAdvertisingAPISample-Prefix.pch */,
+				8836FBB4168D90CF00CF2E0C /* YSAppDelegate.h */,
+				8836FBB5168D90CF00CF2E0C /* YSAppDelegate.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8836FBB6168D90CF00CF2E0C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8836FBB7168D90CF00CF2E0C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8836FBB8168D90CF00CF2E0C /* YSViewController.h */,
+				8836FBB9168D90CF00CF2E0C /* YSViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		88A39840168D8EA300C8AF93 = {
+			isa = PBXGroup;
+			children = (
+				88E9BA4A1698445F0007D727 /* Categories */,
+				8836FBA1168D90CF00CF2E0C /* Model */,
+				8836FBB6168D90CF00CF2E0C /* View */,
+				8836FBB7168D90CF00CF2E0C /* ViewController */,
+				8836FBA9168D90CF00CF2E0C /* Supporting Files */,
+				88A3984E168D8EA300C8AF93 /* Frameworks */,
+				88A3984C168D8EA300C8AF93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88A3984C168D8EA300C8AF93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88A3984B168D8EA300C8AF93 /* AmzonProductAdvertisingAPISample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88A3984E168D8EA300C8AF93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88A39853168D8EA300C8AF93 /* CoreGraphics.framework */,
+				88A39851168D8EA300C8AF93 /* Foundation.framework */,
+				88A3984F168D8EA300C8AF93 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88E9BA4A1698445F0007D727 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				88E9BA6B16985D0D0007D727 /* NSData+Base64.h */,
+				88E9BA6C16985D0D0007D727 /* NSData+Base64.m */,
+				88A46C5D169899EA003F9E39 /* NSString+URLEncode.h */,
+				88A46C5E169899EA003F9E39 /* NSString+URLEncode.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		88E9BA76169868BA0007D727 /* XMLReader */ = {
+			isa = PBXGroup;
+			children = (
+				88E9BA77169868BA0007D727 /* XMLReader.h */,
+				88E9BA78169868BA0007D727 /* XMLReader.m */,
+			);
+			path = XMLReader;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88A3984A168D8EA300C8AF93 /* AmzonProductAdvertisingAPISample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88A3986F168D8EA300C8AF93 /* Build configuration list for PBXNativeTarget "AmzonProductAdvertisingAPISample" */;
+			buildPhases = (
+				88A39847168D8EA300C8AF93 /* Sources */,
+				88A39848168D8EA300C8AF93 /* Frameworks */,
+				88A39849168D8EA300C8AF93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmzonProductAdvertisingAPISample;
+			productName = "Talking Memos";
+			productReference = 88A3984B168D8EA300C8AF93 /* AmzonProductAdvertisingAPISample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88A39842168D8EA300C8AF93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YS;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Shingai Yoshimi";
+			};
+			buildConfigurationList = 88A39845168D8EA300C8AF93 /* Build configuration list for PBXProject "AmzonProductAdvertisingAPISample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 88A39840168D8EA300C8AF93;
+			productRefGroup = 88A3984C168D8EA300C8AF93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88A3984A168D8EA300C8AF93 /* AmzonProductAdvertisingAPISample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88A39849168D8EA300C8AF93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8836FBBA168D90CF00CF2E0C /* Default-568h@2x.png in Resources */,
+				8836FBBB168D90CF00CF2E0C /* Default.png in Resources */,
+				8836FBBC168D90CF00CF2E0C /* Default@2x.png in Resources */,
+				8836FBBD168D90CF00CF2E0C /* InfoPlist.strings in Resources */,
+				8836FBBE168D90CF00CF2E0C /* YSViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88A39847168D8EA300C8AF93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8836FBBF168D90CF00CF2E0C /* main.m in Sources */,
+				8836FBC1168D90CF00CF2E0C /* YSAppDelegate.m in Sources */,
+				8836FBC2168D90CF00CF2E0C /* YSViewController.m in Sources */,
+				88E9BA6D16985D0D0007D727 /* NSData+Base64.m in Sources */,
+				88E9BA79169868BA0007D727 /* XMLReader.m in Sources */,
+				88E9BA841698712F0007D727 /* YSSignedRequestsManager.m in Sources */,
+				88A46C5F169899EA003F9E39 /* NSString+URLEncode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8836FBAD168D90CF00CF2E0C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8836FBAE168D90CF00CF2E0C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8836FBAF168D90CF00CF2E0C /* YSViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8836FBB0168D90CF00CF2E0C /* en */,
+			);
+			name = YSViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88A3986D168D8EA300C8AF93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		88A3986E168D8EA300C8AF93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88A39870168D8EA300C8AF93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Supporting Files/AmzonProductAdvertisingAPISample-Prefix.pch";
+				INFOPLIST_FILE = "Supporting Files/AmzonProductAdvertisingAPISample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = AmzonProductAdvertisingAPISample;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		88A39871168D8EA300C8AF93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Supporting Files/AmzonProductAdvertisingAPISample-Prefix.pch";
+				INFOPLIST_FILE = "Supporting Files/AmzonProductAdvertisingAPISample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = AmzonProductAdvertisingAPISample;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88A39845168D8EA300C8AF93 /* Build configuration list for PBXProject "AmzonProductAdvertisingAPISample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88A3986D168D8EA300C8AF93 /* Debug */,
+				88A3986E168D8EA300C8AF93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88A3986F168D8EA300C8AF93 /* Build configuration list for PBXNativeTarget "AmzonProductAdvertisingAPISample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88A39870168D8EA300C8AF93 /* Debug */,
+				88A39871168D8EA300C8AF93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88A39842168D8EA300C8AF93 /* Project object */;
+}
