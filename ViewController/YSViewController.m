@@ -42,7 +42,7 @@
     
     self.textField = [[UITextField alloc] initWithFrame:CGRectMake((self.view.frame.size.width - 290)/2, self.view.frame.size.height/2 - 80, 290, 30)];
     _textField.borderStyle = UITextBorderStyleRoundedRect;
-    _textField.placeholder = @"ISBNコードを入力してください";
+    _textField.placeholder = @"Put a ISBNCode here.";
     _textField.textColor = [UIColor blueColor];
     _textField.clearButtonMode = UITextFieldViewModeAlways;
     [self.view addSubview:_textField];
